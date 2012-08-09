@@ -1,0 +1,25 @@
+                               SYNONYMS
+                               ========
+
+                           by Robert Smith
+
+SYNONYMS is a package to provide synonyms to equivalent CL
+functionality. It is a library existing for its utilitarian value, but
+differs from other utility libraries in that it does not present any
+new functionality, algorithms, or data structures to Common Lisp.
+
+SYNONYMS provides synonyms for a variety of functional and stylistic
+reasons. It provides synonyms that are
+
+   * useful for readability's sake, such as TRUE and FALSE.
+   * useful for functional programming, such as STRCAT
+   * useful for particular styles of programming
+
+Not all functionality provided by SYNONYMS are precise duplicates of
+the functionality of another symbol in Common Lisp. For example,
+NON-ZERO-P, a function useful for functional programming, does not
+have a direct synonymous equivalent; it is defined as
+
+    (not (zerop n)).
+
+However, this is small enough and close enough to act as a synonym.
