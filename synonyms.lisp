@@ -33,6 +33,16 @@
   "Check if a number is non-zero."
   (not (zerop n)))
 
+;;;;;;;;;;;;;;;;;;;;;;;;; List Alternatives ;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defun head (list)
+  "Return the head of a list."
+  (car list))
+
+(defun tail (list)
+  "Return the tail (rest) of the list."
+  (cdr list))
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;; C-like functions ;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (defun strcat (a b)

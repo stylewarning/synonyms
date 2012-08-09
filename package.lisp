@@ -14,6 +14,9 @@
    #:non-negative-p
    #:non-zero-p
    
+   #:head
+   #:tail
+   
    #:strcat
    
    #:yes
