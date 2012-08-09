@@ -3,7 +3,7 @@
 
 (defpackage #:synonyms
   (:use #:cl)
-  (:nickname #:syn)
+  (:nicknames #:syn)
   (:export
    #:true
    #:false
